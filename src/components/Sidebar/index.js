@@ -34,7 +34,7 @@ function Sidebar({ isOpen, toggle }) {
         </SidebarMenu>
       </SidebarWrapper>
       <SideBtnWrap>
-        <SideBtnRoute>Sign In</SideBtnRoute>
+        <SideBtnRoute to="signin">Sign In</SideBtnRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );
